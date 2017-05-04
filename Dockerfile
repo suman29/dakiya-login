@@ -4,5 +4,5 @@ EXPOSE 3001
 ADD . /src
 RUN cd /src \
  && yarn install \
- && npm run build
+ && npm run build 
 ENTRYPOINT ["npm", "run", "start"]
